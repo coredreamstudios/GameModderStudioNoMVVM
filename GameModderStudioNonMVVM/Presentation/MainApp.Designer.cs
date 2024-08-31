@@ -1,0 +1,56 @@
+﻿namespace GameModderStudioNonMVVM.Presentation
+{
+    partial class MainApp
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            CharacterMappingTreeView = new TreeView();
+            SuspendLayout();
+            // 
+            // CharacterMappingTreeView
+            // 
+            CharacterMappingTreeView.Location = new Point(12, 12);
+            CharacterMappingTreeView.Name = "CharacterMappingTreeView";
+            CharacterMappingTreeView.Size = new Size(166, 426);
+            CharacterMappingTreeView.TabIndex = 0;
+            // 
+            // MainApp
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(CharacterMappingTreeView);
+            Name = "MainApp";
+            Text = "Game Modder Studio";
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private TreeView CharacterMappingTreeView;
+    }
+}
